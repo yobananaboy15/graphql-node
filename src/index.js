@@ -9,6 +9,7 @@ let links = [
 ];
 
 let idCount = links.length;
+
 const resolvers = {
   Query: {
     info: () => `This is the API of a Hackernews Clone`,
